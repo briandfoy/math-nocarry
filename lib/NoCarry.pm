@@ -1,5 +1,6 @@
 # $Id$
 package Math::NoCarry;
+use strict;
 
 use base qw(Exporter);
 
@@ -183,8 +184,6 @@ sub subtract
 		}
 
 	return scalar reverse $string;
-
-	return $o;
 	}
 
 1;
