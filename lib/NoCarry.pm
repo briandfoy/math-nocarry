@@ -61,7 +61,7 @@ additions, you can multiply and subtract like this as well.
 
 No carry arithmetic is both associative and commutative.
 
-=head1 FUNCTIONS
+=head2 Functions
 
 This module does not export any functions.
 
@@ -191,6 +191,8 @@ sub subtract
 
 __END__
 
+=back
+
 =head1 BUGS
 
 * none reported yet :)
@@ -205,13 +207,23 @@ two arguments.
 
 * addition and subtraction don't do negative numbers.
 
+=head1 SOURCE AVAILABILITY
+
+This source is part of a SourceForge project which always has the
+latest sources in CVS, as well as all of the previous releases.
+
+	http://sourceforge.net/projects/brian-d-foy/
+
+If, for some reason, I disappear from the world, one of the other
+members of the project can shepherd this module appropriately.
+
 =head1 AUTHOR
 
-brian d foy, <bdfoy@cpan.org>
+brian d foy, C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT
 
-Copyright 2002, brian d foy, All Rights Reserved.
+Copyright 2002-2004, brian d foy, All Rights Reserved.
 
 You may redistribute this under the same terms as Perl itself.
 

@@ -1,1 +1,9 @@
 *.gz
+blib
+Makefile
+META.yml
+Math-*
+pm_to_blib
+.lwpcookies
+*.old
+*.bak

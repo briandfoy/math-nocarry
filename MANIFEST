@@ -1,8 +1,13 @@
-# $Id$
 Changes
+lib/NoCarry.pm
 Makefile.PL
 MANIFEST
-lib/NoCarry.pm
-t/00.load.t
-t/01.add.t
-t/01.multiply.t
+META.yml
+README
+t/add.t
+t/load.t
+t/multiply.t
+t/pod.t
+t/prereq.t
+t/subtract.t
+t/test_manifest
