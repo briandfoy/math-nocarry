@@ -149,7 +149,7 @@ sub add
 	return $string;
 	}
 
-=item add( A, B )
+=item subtract( A, B )
 
 Returns the no carry difference of the postive numbers A and B.
 
@@ -222,7 +222,7 @@ brian d foy, C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT
 
-Copyright 2002-2004, brian d foy, All Rights Reserved.
+Copyright 2002-2005, brian d foy, All Rights Reserved.
 
 You may redistribute this under the same terms as Perl itself.
 

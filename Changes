@@ -1,5 +1,8 @@
 Revision history for Perl extension Math::NoCarry.
 
+1.07 - Wed Nov 17 16:03:55 2004
+* no changes
+
 1.07 - Fri Oct  8 15:56:57 2004
 * no feature changes: added strictures and removed unreachable statement
 
