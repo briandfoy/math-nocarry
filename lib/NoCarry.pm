@@ -33,13 +33,17 @@ sub multiply
 	{
 	return $_[0] if $#_ < 1;
 	
-	my @p = reverse split //, $_[0];
+	my @p0 = reverse split //, $_[0];
+	my @p1 = reverse split //, $_[1];
 	
 	my @m;
 		
-	foreach my $i ( 0 .. $#p )
-		{
-		push @m, $_[1] * $p[$i] * ( 10**$i );
+	foreach my $i ( 0 .. $#p0 )
+		{		
+		foreach my $j ( 0 .. $#p1 )
+			{
+			push @m, ( ( $p1[$j] * $p0[$i] ) % 10 ) * ( 10**($i+$j) );
+			}
 		}
 		
 	while( @m > 1 )
