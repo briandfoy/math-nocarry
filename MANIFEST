@@ -1,0 +1,8 @@
+# $Id$
+Changes
+Makefile.PL
+MANIFEST
+lib/NoCarry.pm
+t/00.load.t
+t/01.add.t
+t/01.multiply.t
