@@ -1,10 +1,10 @@
-# $Id#
+# $Id$
 package Math::NoCarry;
 
-require Exporter;
+use base qw(Exporter);
 
 use vars qw($VERSION);
-$VERSION = sprintf "%d.%02d", q$Revision$ =~ m/ (\d+) \. (\d+) /g;
+$VERSION = sprintf "%d.%02d", q$Revision$ =~ m/ (\d+) \. (\d+) /xg;
 
 =head1 NAME
 
