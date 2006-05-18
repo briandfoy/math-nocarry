@@ -1,5 +1,8 @@
 Revision history for Perl extension Math::NoCarry.
 
+1.09 - Thu May 18 17:15:39 2006
+	* Updates to distro and kwalitee. No need to upgrade.
+
 1.08 - Fri Mar 11 21:55:20 2005
 	* Updated docs for POD coverage tests
 	* No code changes, but the docs for subtract() are labelled
