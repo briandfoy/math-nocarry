@@ -114,7 +114,7 @@ Returns the no carry sum of the positive numbers A and B.
 
 Returns A if it is the only argument ( A + 0 )
 
-Returns undef or the empty list if either number is negative.
+Returns false if either number is negative.
 
 =cut
 
@@ -155,7 +155,7 @@ Returns the no carry difference of the postive numbers A and B.
 
 Returns A if it is the only argument ( A - 0 )
 
-Returns undef or the empty list if either number is negative.
+Returns false if either number is negative.
 
 =cut
 
@@ -222,7 +222,7 @@ brian d foy, C<< <bdfoy@cpan.org> >>
 
 =head1 COPYRIGHT
 
-Copyright 2002-2005, brian d foy, All Rights Reserved.
+Copyright 2002-2006, brian d foy, All Rights Reserved.
 
 You may redistribute this under the same terms as Perl itself.
 

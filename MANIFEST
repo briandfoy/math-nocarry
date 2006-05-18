@@ -8,6 +8,7 @@ t/add.t
 t/load.t
 t/multiply.t
 t/pod.t
+t/pod_coverage.t
 t/prereq.t
 t/subtract.t
 t/test_manifest
