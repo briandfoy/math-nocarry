@@ -1,5 +1,9 @@
 Revision history for Perl extension Math::NoCarry.
 
+1.10 - Tue Jan  9 22:33:59 2007
+	* updated copyright and license info
+	* no code changes, so no need to upgrade
+
 1.09 - Thu May 18 17:15:39 2006
 	* Updates to distro and kwalitee. No need to upgrade.
 
