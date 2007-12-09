@@ -2,10 +2,17 @@
 package Math::NoCarry;
 use strict;
 
+use warnings;
+no warnings;
+
 use base qw(Exporter);
 
-use vars qw($VERSION);
-$VERSION = sprintf "%d.%02d", q$Revision$ =~ m/ (\d+) \. (\d+) /xg;
+use vars qw($VERSION @EXPORT_OK %EXPORT_TAGS);
+
+@EXPORT_OK = qw(add subtract multiply);
+%EXPORT_TAGS =  ( all => [ @EXPORT_OK ] );
+
+$VERSION = 1.11;
 
 =head1 NAME
 
@@ -13,13 +20,13 @@ Math::NoCarry - Perl extension for no carry arithmetic
 
 =head1 SYNOPSIS
 
-	use Math::NoCarry;
+	use Math::NoCarry qw(:all);
 
-	my $sum        = Math::NoCarry::add( 123, 456 );
+	my $sum        = add( 123, 456 );
 
-	my $difference = Math::NoCarry::subtract( 123, 456 );
+	my $difference = subtract( 123, 456 );
 
-	my $product    = Math::NoCarry::multiply( 123, 456 );
+	my $product    = multiply( 123, 456 );
 
 =head1 DESCRIPTION
 
@@ -64,7 +71,8 @@ No carry arithmetic is both associative and commutative.
 
 =head2 Functions
 
-This module does not export any functions.
+As of version 1.11, all of these functions are exportable on
+demand, or with the tag C<:all> to get them all at once.
 
 =over 4
 
@@ -209,7 +217,7 @@ two arguments.
 =head1 SOURCE AVAILABILITY
 
 This source is part of a SourceForge project which always has the
-latest sources in CVS, as well as all of the previous releases.
+latest sources in SVN, as well as all of the previous releases.
 
 	http://sourceforge.net/projects/brian-d-foy/
 
