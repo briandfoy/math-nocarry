@@ -4,7 +4,6 @@ lib/NoCarry.pm
 LICENSE
 Makefile.PL
 MANIFEST
-META.yml
 README
 t/add.t
 t/load.t
