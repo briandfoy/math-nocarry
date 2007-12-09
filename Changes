@@ -1,5 +1,10 @@
 Revision history for Perl extension Math::NoCarry.
 
+1.11 - Sun Dec  9 00:37:35 2007
+	* Now all the functions are exportable on demand.
+	* Distro requires 5.006, although it probably stills works on
+	earlier versions. I'm not actively supporting those though.
+
 1.10 - Tue Jan  9 22:33:59 2007
 	* updated copyright and license info
 	* no code changes, so no need to upgrade
