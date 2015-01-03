@@ -1,4 +1,3 @@
-# $Id$
 package Math::NoCarry;
 use strict;
 

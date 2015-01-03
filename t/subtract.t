@@ -1,5 +1,3 @@
-# $Id$
-
 BEGIN { print "1..4\n"; }
 
 END { print "not ok\n" unless $loaded }
