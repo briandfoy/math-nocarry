@@ -1,4 +1,4 @@
-Revision history for Perl extension Math::NoCarry.
+Revision history for Perl module Math::NoCarry
 
 1.11 - Sun Dec  9 00:37:35 2007
 	* Now all the functions are exportable on demand.
