@@ -18,16 +18,16 @@ Revision history for Perl extension Math::NoCarry.
 	correctly now.
 
 1.07 - Wed Nov 17 16:03:55 2004
-* no changes
+	* no changes
 
 1.07 - Fri Oct  8 15:56:57 2004
-* no feature changes: added strictures and removed unreachable statement
+	* no feature changes: added strictures and removed unreachable statement
 
 1.06 - Wed Sep  8 03:43:12 2004
-* cleaned up the distro and the docs
-8 no code changes, no need to upgrade
+	* cleaned up the distro and the docs
+	* no code changes, no need to upgrade
 
 0.01  Tue Jun 25 03:10:43 2002
-	- original version; created by h2xs 1.21 with options
+	* original version; created by h2xs 1.21 with options
 		-AXn Math::NoCarry
 
