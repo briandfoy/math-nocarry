@@ -47,7 +47,7 @@ my %WriteMakefile = (
 			},
 		},
 
-	clean => { FILES => 'Math-NoCarry-*' },
+	clean => { FILES => "$dist-*" },
 	);
 
 sub arguments { \%WriteMakefile }
