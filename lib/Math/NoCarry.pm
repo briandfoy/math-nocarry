@@ -13,6 +13,8 @@ use vars qw($VERSION @EXPORT_OK %EXPORT_TAGS);
 
 $VERSION = 1.11;
 
+=encoding utf8
+
 =head1 NAME
 
 Math::NoCarry - Perl extension for no carry arithmetic
