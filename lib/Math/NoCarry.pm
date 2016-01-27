@@ -4,7 +4,7 @@ use strict;
 use warnings;
 no warnings;
 
-use base qw(Exporter);
+use Exporter qw(import);
 
 use vars qw($VERSION @EXPORT_OK %EXPORT_TAGS);
 
