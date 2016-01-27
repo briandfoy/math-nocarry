@@ -11,7 +11,7 @@ use vars qw($VERSION @EXPORT_OK %EXPORT_TAGS);
 @EXPORT_OK = qw(add subtract multiply);
 %EXPORT_TAGS =  ( all => [ @EXPORT_OK ] );
 
-$VERSION = 1.11;
+$VERSION = '1.111';
 
 =encoding utf8
 
