@@ -17,7 +17,7 @@ $VERSION = '1.111';
 
 =head1 NAME
 
-Math::NoCarry - Perl extension for no carry arithmetic
+Math::NoCarry - Perl extension for no- carry arithmetic
 
 =head1 SYNOPSIS
 
@@ -31,11 +31,11 @@ Math::NoCarry - Perl extension for no carry arithmetic
 
 =head1 DESCRIPTION
 
-No carry arithmetic doesn't allow you to carry digits to the
-next column.  For example, if you add 8 and 4, you normally
+No-carry arithmetic doesn't allow you to carry digits to the
+next column. For example, if you add 8 and 4, you normally
 expect the answer to be 12, but that 1 digit is a carry.
-In no carry arithmetic you can't do that, so the sum of
-8 and 4 is just 2.  In effect, this is addition modulo 10
+In no-carry arithmetic you can't do that, so the sum of
+8 and 4 is just 2. In effect, this is addition modulo 10
 in each column. I discard all of the carry digits in
 this example:
 
