@@ -85,8 +85,7 @@ Return A if it is the only argument ( A x 1 );
 
 =cut
 
-sub multiply
-	{
+sub multiply {
 	return $_[0] if $#_ < 1;
 
 	@_ = map { $_ += 0 } @_;
@@ -99,16 +98,13 @@ sub multiply
 
 	my @m;
 
-	foreach my $i ( 0 .. $#p0 )
-		{
-		foreach my $j ( 0 .. $#p1 )
-			{
+	foreach my $i ( 0 .. $#p0 ) {
+		foreach my $j ( 0 .. $#p1 ) {
 			push @m, ( ( $p1[$j] * $p0[$i] ) % 10 ) * ( 10**($i+$j) );
 			}
 		}
 
-	while( @m > 1 )
-		{
+	while( @m > 1 ) {
 		unshift @m, Math::NoCarry::add( shift @m, shift @m );
 		}
 
@@ -127,8 +123,7 @@ Returns false if either number is negative.
 
 =cut
 
-sub add
-	{
+sub add {
 	return $_[0] if $#_ < 1;
 
 	@_ = map { local $^W; $_ += 0 } @_;
@@ -142,8 +137,7 @@ sub add
 	my $max = length $addends[0];
 	$max = length $addends[1] if length $addends[1] > $max;
 
-	for( my $i = 0; $i < $max ; $i++ )
-		{
+	for( my $i = 0; $i < $max ; $i++ ) {
 		my @digits = map { local $^W = 0; substr( $_, $i, 1) or 0 } @addends;
 
 		my $sum = ( $digits[0] + $digits[1] ) % 10;
@@ -168,8 +162,7 @@ Returns false if either number is negative.
 
 =cut
 
-sub subtract
-	{
+sub subtract {
 	return $_[0] if $#_ < 1;
 
 	return unless( $_[0] >= 0 and $_[1] >= 0);
@@ -181,8 +174,7 @@ sub subtract
 	my $max = length $addends[0];
 	$max = length $addends[1] if length $addends[1] > $max;
 
-	for( my $i = 0; $i < $max ; $i++ )
-		{
+	for( my $i = 0; $i < $max ; $i++ ) {
 		my @digits = map { substr $_, $i, 1 } @addends;
 
 		$digits[0] += 10 if $digits[0] < $digits[1];
@@ -210,7 +202,7 @@ __END__
 * this could be a full object package with overloaded
 +, *, and - operators
 
-* it would be nice if i could give the functions more than
+* it would be nice if I could give the functions more than
 two arguments.
 
 * addition and subtraction don't do negative numbers.
