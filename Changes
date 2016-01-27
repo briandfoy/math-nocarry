@@ -1,5 +1,8 @@
 Revision history for Perl module Math::NoCarry
 
+1.111 2016-01-27T20:21:05Z
+	* Freshen distro, remove prereq.t test
+
 1.11 - 2007-12-09
 	* Now all the functions are exportable on demand.
 	* Distro requires 5.006, although it probably stills works on
