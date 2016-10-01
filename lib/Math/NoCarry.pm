@@ -154,7 +154,7 @@ sub add {
 
 =item subtract( A, B )
 
-Returns the no carry difference of the postive numbers A and B.
+Returns the no carry difference of the positive numbers A and B.
 
 Returns A if it is the only argument ( A - 0 )
 
