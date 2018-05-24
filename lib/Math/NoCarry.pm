@@ -211,7 +211,7 @@ two arguments.
 
 This source is in GitHub:
 
-	https://github.com/briandfoy/Math-NoCarry
+	https://github.com/briandfoy/math-nocarry
 
 =head1 AUTHOR
 

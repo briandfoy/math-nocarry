@@ -72,16 +72,16 @@ the source repository:
 
 =over 4
 
-=item *	L<https://github.com/briandfoy/Math-NoCarry>
+=item *	L<https://github.com/briandfoy/math-nocarry>
 
 =back
 
-If you find a problem, file a ticket in the L<issue 
-tracker|https://github.com/briandfoy/Math-NoCarry/issues>:
+If you find a problem, file a ticket in the L<issue
+tracker|https://github.com/briandfoy/math-nocarry/issues>:
 
 =over 4
 
-=item *	L<https://github.com/briandfoy/Math-NoCarry/issues>
+=item *	L<https://github.com/briandfoy/math-nocarry/issues>
 
 =back
 
