@@ -6,12 +6,10 @@ no warnings;
 
 use Exporter qw(import);
 
-use vars qw($VERSION @EXPORT_OK %EXPORT_TAGS);
+our @EXPORT_OK = qw(add subtract multiply);
+our %EXPORT_TAGS =  ( all => [ @EXPORT_OK ] );
 
-@EXPORT_OK = qw(add subtract multiply);
-%EXPORT_TAGS =  ( all => [ @EXPORT_OK ] );
-
-$VERSION = '1.111';
+our $VERSION = '1.112';
 
 =encoding utf8
 
