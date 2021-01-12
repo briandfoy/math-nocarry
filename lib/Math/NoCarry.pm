@@ -193,17 +193,23 @@ __END__
 
 =head1 BUGS
 
-* none reported yet :)
+=over 4
+
+=item * none reported yet :)
+
+=back
 
 =head1 TO DO
 
-* this could be a full object package with overloaded
-+, *, and - operators
+=over 4
 
-* it would be nice if I could give the functions more than
-two arguments.
+=item * this could be a full object package with overloaded +, *, and - operators
 
-* addition and subtraction don't do negative numbers.
+=item * it would be nice if I could give the functions more than two arguments.
+
+=item * addition and subtraction don't do negative numbers.
+
+=back
 
 =head1 SOURCE AVAILABILITY
 
