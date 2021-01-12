@@ -15,7 +15,7 @@ our $VERSION = '1.113';
 
 =head1 NAME
 
-Math::NoCarry - Perl extension for no- carry arithmetic
+Math::NoCarry - Perl extension for no-carry arithmetic
 
 =head1 SYNOPSIS
 
