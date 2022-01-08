@@ -9,7 +9,7 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(add subtract multiply);
 our %EXPORT_TAGS =  ( all => [ @EXPORT_OK ] );
 
-our $VERSION = '1.113';
+our $VERSION = '1.114';
 
 =encoding utf8
 
